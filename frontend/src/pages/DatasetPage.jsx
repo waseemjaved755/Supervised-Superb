@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import DatasetUpload from "../components/dataset/DatasetUpload";
+import DatasetUpload from "../components/DatasetUpload";
 
 export default function DatasetPage() {
   const [uploadedFile, setUploadedFile] = useState(null);

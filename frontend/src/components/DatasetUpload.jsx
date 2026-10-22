@@ -1,6 +1,6 @@
 
 import { useRef, useState } from "react";
-import { validateDatasetFile } from "../../utils/fileValidation";
+import { validateDatasetFile } from "../Utils/fileValidation";
 
 export default function DatasetUpload({ onUpload }) {
   const [selectedFile, setSelectedFile] = useState(null);
